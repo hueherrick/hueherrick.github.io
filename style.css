@@ -1,0 +1,64 @@
+
+
+.box {
+    background-color: lightgrey;
+    width: 400px;
+    border: 5px solid yellowgreen;
+    padding: 25px;
+    margin: 10px;
+    }
+
+
+p {
+    background-color: yellowgreen;
+    color: black;
+    margin: 40px 100px 40px 50px;
+
+}
+div.position{
+    position:absolute;
+    left: 50px;
+    right: 400px;
+    top: 500px;S
+}
+/*
+a:link{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: maroon;
+}
+
+div:hover{
+    color: green;
+}
+
+div.pseudoclass:hover{
+    color: red;
+}
+div {
+    background: red;
+}
+  
+    span {
+        background: greenyellow;
+        height: 50px;
+        width: 300px; 
+        display:block;
+ }
+
+/*
+p {
+    color: rgba(238,14,14,0)
+
+}
+body {
+background: lightblue;
+
+}
