@@ -1,27 +1,89 @@
 
 
 .box {
-    background-color: lightgrey;
-    width: 400px;
-    border: 5px solid yellowgreen;
+    background-color: yellowgreen;
+    width: 800px;
+    border: 5px solid green;
     padding: 25px;
     margin: 10px;
+    animation-name: ease-in;
+    animation-duration: 10s;
     }
 
 
 p {
-    background-color: yellowgreen;
-    color: black;
+    color: blue;
+    background-color: rgb(232, 250, 154);
     margin: 40px 100px 40px 50px;
+    Font-size: 16px;
+    border: 2px solid yellowgreen;
 
 }
-div.position{
+
+h1 {
+
+    color: green;
+    background-color: rgb(232, 250, 154);
+    margin: 40px 100px 40px 50px;
+    border: 5px solid yellowgreen;
+
+}
+#container1{
+    font-size: 24px;
+
+}
+
+h3{
+
+    color: rgb(72, 58, 124);
+    background-color: lightgrey;
+    margin: 40px 100px 40px 50px;
+    border: 2px solid yellowgreen;
+
+}
+.box2 {
+    background-color: rgb(187, 117, 160);
+    width: 800px;
+    border: 5px solid rgb(128, 0, 60);
+    padding: 25px;
+    margin: 10px;
+    }
+a.pseudo:hover{
+    color:aqua
+    margin: 40px 100px 40px 50px;
+}
+
+img {
+    border-radius: 8px;
+  }
+    
+div.animation{
+    animation-timing-function: ease-in ;
+    animation-duration: 4s;
+}
+
+div.absolute{
     position:absolute;
-    left: 50px;
-    right: 400px;
-    top: 500px;S
+    top: 2700px;
+  right: 250px;
+  bottom: 100px;
+  width: 800px;
+  height: 100px;
+}
+    
+
+div.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;  
+}
+
+a:hover{
+    color:aquamarine
 }
 /*
+
+
 a:link{
     color:red;
 }
